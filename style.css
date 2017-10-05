@@ -1,0 +1,91 @@
+/* GLOBAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* HOME SECTION */
+
+section.home {
+  width: 414px;
+  height: 736px;
+  background: url('./img/background.jpg');
+}
+
+section.home h1 {
+  text-align: center;
+  padding-top: 112px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-stretch: regular;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+section.home h1 span {
+  display: block;
+  font-size: 30.5px;
+  line-height: 36px;
+}
+
+
+/* PHOTOGRAPHY SECTION */
+
+section.photography {
+  width: 414px;
+  height: 621px;
+  background: url('./img/sarah-dorweiler-357720.jpg');
+}
+
+section.photography h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: right;
+  text-transform: uppercase;
+  position: absolute;
+  left: 287px;
+  top: 787px;
+  z-index: 1;
+}
+
+section.photography h1 span {
+  display: block;
+  letter-spacing: 4.62px;
+}
+
+.line {
+  width: 46px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 342px;
+  top: 852px;
+}
+
+.box {
+  width: 100px;
+  height: 86px;
+  position: absolute;
+  left: 272px;
+  top: 778px;
+  background: #eee;
+  box-shadow: rgba(0, 0, 0, 0.11) 9px 9px 26px;
+}
+
+section.photography p.photography-text {
+  position: absolute;
+  width: 212px;
+  height: 65px;
+  left: 185px;
+  top: 944px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0.6px;
+}
