@@ -9,7 +9,6 @@
 /* HOME SECTION */
 
 section.home {
-  margin: 0 auto;
   width: 414px;
   height: 736px;
   background: url('./img/background.jpg');
@@ -35,7 +34,6 @@ section.home h1 span {
 /* PHOTOGRAPHY SECTION */
 
 section.photography {
-  margin: 0 auto;
   width: 414px;
   height: 621px;
   background: url('./img/sarah-dorweiler-357720.jpg');
